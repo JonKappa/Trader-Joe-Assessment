@@ -21,8 +21,8 @@ public class StockPortfolio {
             value -= transferFee;
         }
         else if (amount < 0) {
-            Joe = value - 10;
             value = value + amount;
+            Joe -= amount + transferFee;
         }
     }
 
