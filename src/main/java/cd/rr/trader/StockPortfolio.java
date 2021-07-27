@@ -24,13 +24,10 @@ public class StockPortfolio {
             Joe = value - 10;
             value = value + amount;
         }
-
-        System.out.println(value);
     }
 
     void applyChange(double percentage) {
         percentage = (percentage + 100) /100;
         value = value * percentage;
-        System.out.println(value);
     }
 }
